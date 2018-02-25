@@ -1,0 +1,14 @@
+html, body { overflow-y: hidden; }
+section { height: 100vh; width: 100vw; overflow: auto; }
+a.btn { background-color: #ee6e73; }
+a.btn:hover { background-color: #e57373; }
+
+section#loc-wrapper .row { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; margin: 0; min-height: 540px; }
+section#loc-wrapper h1,
+section#loc-wrapper input { width: 50%; }
+section#loc-wrapper input:focus { border-bottom-color: #ee6e73; box-shadow: 0 1px 0 0 #ee6e73; }
+
+section#map-wrapper .row { height: 100%; margin: 0; min-height: 640px; }
+section#map-wrapper .row .col { height: 100%; padding: 0; }
+section#map-wrapper .row .sidebar { display: flex; flex-direction: column; justify-content: space-between; padding: 2rem; border-right: 1px solid #eee; }
+section#map-wrapper #map { height: 100%; width: 100%; }

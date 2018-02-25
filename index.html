@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ki Toh Loh Jiak</title>
+  </head>
+
+  <body>
+    <section id="loc-wrapper" class="page active">
+      <div class="row">
+        <h1>Where are you at?</h1>
+        <input type="text" id="loc-input" placeholder="Enter your location" autocomplete="on">
+      </div>
+    </section>
+
+    <section id="map-wrapper" class="page">
+      <div class="row">
+        <div class="col s4 sidebar">
+          <div class="dest-details">
+            <h4>How about <span id="dest-name"></span></h4>
+            <h5 id="dest-address"></h5>
+            <img id="dest-photo" src="">
+            <p>Rating: <span id="dest-rating"></span></p>
+            <p>Hours: <span id="dest-hours"></span></p>
+          </div>
+          <div class="btn-group">
+            <p><a class="waves-effect waves-light btn" onClick="redrawRouteAndPopulate()"><i class="material-icons left">track_changes</i>Find me another place</a></p>
+            <p><a class="waves-effect waves-light btn" onClick="scrollToElement('loc-wrapper')"><i class="material-icons left">arrow_upward</i>Change my location</a></p>
+          </div>
+        </div>
+        <div class="col s8">
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./assets/js/custom.js"></script>
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY&libraries=places&callback=initMap"></script>
+  </body>
+</html>
