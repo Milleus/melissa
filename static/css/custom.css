@@ -1,0 +1,21 @@
+#ki-toh-loh-jiak { height: 100vh; width: 100vw; }
+
+#ki-toh-loh-jiak .top-card { position: absolute; top: 0px; right: 0px; z-index: 1; margin: 10px 10px 0 0; background-color: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); min-width: 40vw; }
+#ki-toh-loh-jiak .top-card .title { background-color: #400101; color: #fff; font-size: 25px; font-weight: 500; padding: 6px 12px; }
+#ki-toh-loh-jiak .top-card .loc-wrapper { padding: 0 12px; }
+#ki-toh-loh-jiak .top-card #loc-input:focus { border-bottom: 1px solid red; -webkit-box-shadow: 0 1px 0 0 red; box-shadow: 0 1px 0 0 red; }
+
+#ki-toh-loh-jiak #map { height: 100%; width: 100%; }
+
+#ki-toh-loh-jiak .bottom-card { position: absolute; bottom: 0; left: 0; z-index: 1; margin: 0 0 10px 10px; background-color: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); max-height: 0; opacity: 0; transition: all 1s ease-in-out; display: flex; }
+#ki-toh-loh-jiak .bottom-card.show { max-height: 500px; opacity: 1; }
+#ki-toh-loh-jiak .bottom-card > * { padding: 12px; }
+#ki-toh-loh-jiak .bottom-card img { max-height: 200px; }
+#ki-toh-loh-jiak .bottom-card .dest-details .title { font-size: 25px; font-weight: 500; }
+#ki-toh-loh-jiak .bottom-card .dest-details .btn { background-color: red; white-space: nowrap; }
+#ki-toh-loh-jiak .bottom-card .dest-details .btn:hover { background-color: #400101; }
+
+@media only screen and (max-width : 992px) {
+  #ki-toh-loh-jiak .bottom-card { flex-direction: column; }
+  #ki-toh-loh-jiak .bottom-card img { display: none; }
+}
