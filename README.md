@@ -1,6 +1,6 @@
 # Melissa
 
-Melissa is a simple webpage that randomly recommends a food destination based on location.
+Melissa is a simple webpage that randomly recommends a nearby place to eat based on location.
 
 There is no backend as this fully utilizes Google's Maps API.
 
