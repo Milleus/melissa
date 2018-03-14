@@ -1,6 +1,6 @@
-# Ki Toh Loh Jiak
+# Melissa
 
-"Ki Toh Loh Jiak" means "go where eat?" in the Hokkien dilect. This is a simple webpage that recommends a random food destination based on current location input.
+Melissa is a simple webpage that randomly recommends a food destination based on current location.
 
 There is no backend as this fully utilizes Google's Maps API.
 
