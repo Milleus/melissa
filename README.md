@@ -1,8 +1,8 @@
 # Melissa
 
-Melissa is a simple webpage that randomly recommends a nearby place to eat based on location.
+Melissa recommends a nearby place to eat based on location.
 
-There is no backend as this fully utilizes Google's Maps API.
+There is no backend as this purely utilizes Google Maps API.
 
 # How to use?
 1. Create a Google Maps API key.
