@@ -15,7 +15,11 @@
 #melissa .bottom-card .dest-details .btn { background-color: red; white-space: nowrap; }
 #melissa .bottom-card .dest-details .btn:hover { background-color: #400101; }
 
-@media only screen and (max-width : 992px) {
-  #melissa .bottom-card { flex-direction: column; }
-  #melissa .bottom-card img { display: none; }
+@media only screen and (max-width: 768px) {
+  #melissa .bottom-card { flex-direction: column; margin: 0; }
+  #melissa .bottom-card img { display: none; }  
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  #melissa { height: calc(100vh - 44px); }
 }

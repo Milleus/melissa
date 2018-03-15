@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
-    <!-- <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="./static/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="./static/css/custom.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Melissa</title>
-  </head>
 
-  <body>
-    <section id="melissa">
-      <div class="top-card">
-        <div class="title">Where are you at?</div>
-        <div class="loc-wrapper">
-          <input type="text" id="loc-input" placeholder="Enter your location" autocomplete="on">
-        </div>
+<head>
+  <!-- <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+  <!-- <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./static/css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="./static/css/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Melissa</title>
+</head>
+
+<body>
+  <section id="melissa">
+    <div class="top-card">
+      <div class="title">Where are you at?</div>
+      <div class="loc-wrapper">
+        <input type="text" id="loc-input" placeholder="Enter your location" autocomplete="on">
       </div>
-      <div id="map"></div>
-    
-      <div class="bottom-card">
-        <img id="dest-photo" src="">
-        <div class="dest-details">
-          <div id="dest-name" class="title"></div>
-          <div id="dest-address"></div>
-          <div id="dest-rating"></div>
-          <div id="dest-hours"></div>
-          <a class="waves-effect waves-light btn" onClick="redrawRouteAndPopulate()"><i class="material-icons left">track_changes</i>Find me another place</a>
-        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="bottom-card">
+      <img id="dest-photo" src="">
+      <div class="dest-details">
+        <div id="dest-name" class="title"></div>
+        <div id="dest-address"></div>
+        <div id="dest-rating"></div>
+        <div id="dest-hours"></div>
+        <a class="waves-effect waves-light btn" onClick="redrawRouteAndPopulate()">
+          <i class="material-icons left">track_changes</i>Find me another place</a>
       </div>
-    </section>
-    
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="./static/js/materialize.min.js"></script>
-    <script type="text/javascript" src="./static/js/custom.js"></script>
-    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY&libraries=places&callback=initMap"></script>
-  </body>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./static/js/materialize.min.js"></script>
+  <script type="text/javascript" src="./static/js/custom.js"></script>
+  <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY&libraries=places&callback=initMap"></script>
+</body>
+
 </html>
