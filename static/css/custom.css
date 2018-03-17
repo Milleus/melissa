@@ -7,8 +7,8 @@
 
 #melissa #map { height: 100%; width: 100%; }
 
-#melissa .bottom-card { position: absolute; bottom: 0; left: 0; z-index: 1; margin: 0 0 10px 10px; background-color: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); max-height: 0; opacity: 0; transition: all 1s ease-in-out; display: flex; }
-#melissa .bottom-card.show { max-height: 500px; opacity: 1; }
+#melissa .bottom-card { position: absolute; bottom: 0; left: 0; z-index: 1; margin: 0 0 10px 10px; background-color: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); max-height: 600px; transition: all 1s ease-in-out; display: none; }
+#melissa .bottom-card.show { display: flex; }
 #melissa .bottom-card > * { padding: 12px; }
 #melissa .bottom-card img { max-height: 200px; }
 #melissa .bottom-card .dest-details .title { font-size: 25px; font-weight: 500; }
@@ -16,7 +16,7 @@
 #melissa .bottom-card .dest-details .btn:hover { background-color: #400101; }
 
 @media only screen and (max-width: 768px) {
-  #melissa .bottom-card { flex-direction: column; margin: 0; }
+  #melissa .bottom-card { flex-direction: column; margin: 0; width: 100%; }
   #melissa .bottom-card img { display: none; }  
 }
 
