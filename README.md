@@ -8,3 +8,11 @@ Melissa was created to solve a daily problem of figuring out where to go to eat.
 1. Create a Google Maps API key.
 2. Replace `YOUR-API-KEY` in script element with your Google Maps API key in index.html.
 3. Open index.html with your browser.
+
+# Additional Information
+- Search radius is currently set at 750 meters.
+- Search category type is set to restaurant.
+- Routing travel mode is set to transit.
+
+# Resources
+- [Google Maps Javascript API Reference](https://developers.google.com/maps/documentation/javascript/reference/3/)
