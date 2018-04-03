@@ -3,7 +3,7 @@ Melissa recommends a nearby place to eat based on location. There is no backend 
 
 ![Melissa Demo](https://github.com/Milleus/melissa/blob/master/docs/melissa.gif "Melissa Demo")
 
-[Live Demo](https://milleus.github.io/projects/melissa){:target="_blank"}
+[Live Demo](https://milleus.github.io/projects/melissa)
 
 # Why Melissa was created?
 Melissa was created to solve a daily problem of figuring out where to go to eat. It may not have addressed the problem fully, but at least it narrows down the options and introduce a lot of undiscovered food places.
@@ -19,4 +19,4 @@ Melissa was created to solve a daily problem of figuring out where to go to eat.
 - Routing travel mode is set to transit.
 
 # Resources
-- [Google Maps Javascript API Reference](https://developers.google.com/maps/documentation/javascript/reference/3/){:target="_blank"}
+- [Google Maps Javascript API Reference](https://developers.google.com/maps/documentation/javascript/reference/3/)
