@@ -1,9 +1,9 @@
 # Melissa
 Melissa recommends a nearby place to eat based on location. There is no backend as this purely utilizes Google Maps API.
 
-![Melissa Demo](https://github.com/Milleus/melissa/blob/master/docs/melissa.gif "Melissa Demo")
+[View Demo](https://milleus.github.io/projects/melissa)
 
-[Live Demo](https://milleus.github.io/projects/melissa)
+![Melissa Demo](https://github.com/Milleus/melissa/blob/master/docs/melissa.gif "Melissa Demo")
 
 # Why Melissa was created?
 Melissa was created to solve a daily problem of figuring out where to go to eat. It may not have addressed the problem fully, but at least it narrows down the options and introduce a lot of undiscovered food places.
